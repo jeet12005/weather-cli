@@ -6,3 +6,10 @@ def merge_hourly(value):
     if value is None:
         return None
     return value
+
+
+def fetch_wind(value):
+    """Fetch the wind."""
+    if value is None:
+        return None
+    return value
