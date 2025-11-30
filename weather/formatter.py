@@ -13,3 +13,10 @@ def fetch_wind(value):
     if value is None:
         return None
     return value
+
+
+def load_radar(value):
+    """Load the radar."""
+    if value is None:
+        return None
+    return value
