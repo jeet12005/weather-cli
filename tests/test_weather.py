@@ -7,3 +7,7 @@ def test_merge_hourly_handles_none():
 
 def test_resolve_humidity_handles_none():
     assert resolve_humidity(None) is None
+
+
+def test_parse_station_handles_none():
+    assert parse_station(None) is None
