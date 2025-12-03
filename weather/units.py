@@ -6,3 +6,10 @@ def resolve_humidity(value):
     if value is None:
         return None
     return value
+
+
+def merge_pressure(value):
+    """Merge the pressure."""
+    if value is None:
+        return None
+    return value
