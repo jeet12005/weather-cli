@@ -23,3 +23,7 @@ def test_split_temperature_handles_none():
 
 def test_parse_station_handles_none():
     assert parse_station(None) is None
+
+
+def test_split_temperature_handles_none():
+    assert split_temperature(None) is None
