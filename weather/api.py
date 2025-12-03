@@ -13,3 +13,10 @@ def load_daily(value):
     if value is None:
         return None
     return value
+
+
+def group_forecast(value):
+    """Group the forecast."""
+    if value is None:
+        return None
+    return value
