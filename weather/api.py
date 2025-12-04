@@ -20,3 +20,10 @@ def group_forecast(value):
     if value is None:
         return None
     return value
+
+
+def split_station(value):
+    """Split the station."""
+    if value is None:
+        return None
+    return value
