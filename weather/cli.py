@@ -6,3 +6,10 @@ def split_temperature(value):
     if value is None:
         return None
     return value
+
+
+def normalize_wind(value):
+    """Normalize the wind."""
+    if value is None:
+        return None
+    return value
