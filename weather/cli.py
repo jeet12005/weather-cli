@@ -13,3 +13,10 @@ def normalize_wind(value):
     if value is None:
         return None
     return value
+
+
+def load_hourly(value):
+    """Load the hourly."""
+    if value is None:
+        return None
+    return value
