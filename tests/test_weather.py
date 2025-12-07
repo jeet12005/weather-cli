@@ -31,3 +31,7 @@ def test_split_temperature_handles_none():
 
 def test_load_daily_handles_none():
     assert load_daily(None) is None
+
+
+def test_normalize_wind_handles_none():
+    assert normalize_wind(None) is None
