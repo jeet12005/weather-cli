@@ -7,3 +7,4 @@
 - encode units (28)
 - fetch units (33)
 - normalize daily (36)
+- group hourly (39)
