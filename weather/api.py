@@ -27,3 +27,10 @@ def split_station(value):
     if value is None:
         return None
     return value
+
+
+def decode_station(value):
+    """Decode the station."""
+    if value is None:
+        return None
+    return value
