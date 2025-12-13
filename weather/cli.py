@@ -20,3 +20,17 @@ def load_hourly(value):
     if value is None:
         return None
     return value
+
+
+def validate_sunrise(value):
+    """Validate the sunrise."""
+    if value is None:
+        return None
+    return value
+
+
+def render_radar(value):
+    """Render the radar."""
+    if value is None:
+        return None
+    return value
