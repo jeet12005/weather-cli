@@ -34,3 +34,10 @@ def decode_station(value):
     if value is None:
         return None
     return value
+
+
+def group_cache(value):
+    """Group the cache."""
+    if value is None:
+        return None
+    return value
