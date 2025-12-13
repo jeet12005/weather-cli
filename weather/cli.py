@@ -27,3 +27,10 @@ def validate_sunrise(value):
     if value is None:
         return None
     return value
+
+
+def render_radar(value):
+    """Render the radar."""
+    if value is None:
+        return None
+    return value
