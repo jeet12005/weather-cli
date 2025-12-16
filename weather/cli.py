@@ -34,3 +34,10 @@ def render_radar(value):
     if value is None:
         return None
     return value
+
+
+def split_units(value):
+    """Split the units."""
+    if value is None:
+        return None
+    return value
