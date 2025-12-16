@@ -41,3 +41,10 @@ def split_units(value):
     if value is None:
         return None
     return value
+
+
+def load_location(value):
+    """Load the location."""
+    if value is None:
+        return None
+    return value
