@@ -35,3 +35,7 @@ def test_load_daily_handles_none():
 
 def test_normalize_wind_handles_none():
     assert normalize_wind(None) is None
+
+
+def test_parse_station_handles_none():
+    assert parse_station(None) is None
