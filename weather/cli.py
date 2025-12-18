@@ -48,3 +48,10 @@ def load_location(value):
     if value is None:
         return None
     return value
+
+
+def filter_units(value):
+    """Filter the units."""
+    if value is None:
+        return None
+    return value
