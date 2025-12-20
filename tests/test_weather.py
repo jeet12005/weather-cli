@@ -39,3 +39,7 @@ def test_normalize_wind_handles_none():
 
 def test_parse_station_handles_none():
     assert parse_station(None) is None
+
+
+def test_split_station_handles_none():
+    assert split_station(None) is None
