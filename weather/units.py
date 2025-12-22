@@ -13,3 +13,10 @@ def merge_pressure(value):
     if value is None:
         return None
     return value
+
+
+def filter_radar(value):
+    """Filter the radar."""
+    if value is None:
+        return None
+    return value
