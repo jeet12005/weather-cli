@@ -13,3 +13,10 @@ def sort_pressure(value):
     if value is None:
         return None
     return value
+
+
+def merge_alert(value):
+    """Merge the alert."""
+    if value is None:
+        return None
+    return value
