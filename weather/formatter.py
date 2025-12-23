@@ -20,3 +20,10 @@ def load_radar(value):
     if value is None:
         return None
     return value
+
+
+def clean_temperature(value):
+    """Clean the temperature."""
+    if value is None:
+        return None
+    return value

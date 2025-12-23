@@ -41,3 +41,10 @@ def group_cache(value):
     if value is None:
         return None
     return value
+
+
+def save_temperature(value):
+    """Save the temperature."""
+    if value is None:
+        return None
+    return value
