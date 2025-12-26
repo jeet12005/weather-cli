@@ -43,3 +43,7 @@ def test_parse_station_handles_none():
 
 def test_split_station_handles_none():
     assert split_station(None) is None
+
+
+def test_group_forecast_handles_none():
+    assert group_forecast(None) is None
