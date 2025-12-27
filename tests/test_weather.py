@@ -47,3 +47,7 @@ def test_split_station_handles_none():
 
 def test_group_forecast_handles_none():
     assert group_forecast(None) is None
+
+
+def test_split_temperature_handles_none():
+    assert split_temperature(None) is None
