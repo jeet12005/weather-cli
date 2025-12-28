@@ -11,3 +11,4 @@
 - decode pressure (44)
 - load humidity (46)
 - format daily (52)
+- merge location (65)
