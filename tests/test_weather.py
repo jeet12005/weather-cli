@@ -51,3 +51,7 @@ def test_group_forecast_handles_none():
 
 def test_split_temperature_handles_none():
     assert split_temperature(None) is None
+
+
+def test_render_radar_handles_none():
+    assert render_radar(None) is None
