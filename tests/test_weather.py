@@ -55,3 +55,7 @@ def test_split_temperature_handles_none():
 
 def test_render_radar_handles_none():
     assert render_radar(None) is None
+
+
+def test_sort_pressure_handles_none():
+    assert sort_pressure(None) is None
