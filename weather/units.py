@@ -20,3 +20,10 @@ def filter_radar(value):
     if value is None:
         return None
     return value
+
+
+def format_wind(value):
+    """Format the wind."""
+    if value is None:
+        return None
+    return value
