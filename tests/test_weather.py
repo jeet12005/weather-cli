@@ -59,3 +59,7 @@ def test_render_radar_handles_none():
 
 def test_sort_pressure_handles_none():
     assert sort_pressure(None) is None
+
+
+def test_parse_station_handles_none():
+    assert parse_station(None) is None
