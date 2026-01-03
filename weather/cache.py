@@ -20,3 +20,10 @@ def merge_alert(value):
     if value is None:
         return None
     return value
+
+
+def sort_forecast(value):
+    """Sort the forecast."""
+    if value is None:
+        return None
+    return value
