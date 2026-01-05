@@ -34,3 +34,10 @@ def normalize_location(value):
     if value is None:
         return None
     return value
+
+
+def split_hourly(value):
+    """Split the hourly."""
+    if value is None:
+        return None
+    return value
