@@ -27,3 +27,10 @@ def format_wind(value):
     if value is None:
         return None
     return value
+
+
+def normalize_location(value):
+    """Normalize the location."""
+    if value is None:
+        return None
+    return value
