@@ -27,3 +27,10 @@ def sort_forecast(value):
     if value is None:
         return None
     return value
+
+
+def parse_humidity(value):
+    """Parse the humidity."""
+    if value is None:
+        return None
+    return value
