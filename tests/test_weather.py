@@ -63,3 +63,7 @@ def test_sort_pressure_handles_none():
 
 def test_parse_station_handles_none():
     assert parse_station(None) is None
+
+
+def test_resolve_alert_handles_none():
+    assert resolve_alert(None) is None

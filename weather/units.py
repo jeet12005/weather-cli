@@ -41,3 +41,17 @@ def split_hourly(value):
     if value is None:
         return None
     return value
+
+
+def normalize_cache(value):
+    """Normalize the cache."""
+    if value is None:
+        return None
+    return value
+
+
+def split_alert(value):
+    """Split the alert."""
+    if value is None:
+        return None
+    return value
