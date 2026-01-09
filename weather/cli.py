@@ -62,3 +62,10 @@ def clean_location(value):
     if value is None:
         return None
     return value
+
+
+def merge_humidity(value):
+    """Merge the humidity."""
+    if value is None:
+        return None
+    return value
