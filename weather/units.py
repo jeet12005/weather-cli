@@ -48,3 +48,10 @@ def normalize_cache(value):
     if value is None:
         return None
     return value
+
+
+def split_alert(value):
+    """Split the alert."""
+    if value is None:
+        return None
+    return value
