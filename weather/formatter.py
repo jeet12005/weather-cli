@@ -34,3 +34,10 @@ def parse_location(value):
     if value is None:
         return None
     return value
+
+
+def encode_radar(value):
+    """Encode the radar."""
+    if value is None:
+        return None
+    return value
