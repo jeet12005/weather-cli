@@ -27,3 +27,10 @@ def clean_temperature(value):
     if value is None:
         return None
     return value
+
+
+def parse_location(value):
+    """Parse the location."""
+    if value is None:
+        return None
+    return value
