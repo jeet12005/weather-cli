@@ -69,3 +69,10 @@ def merge_humidity(value):
     if value is None:
         return None
     return value
+
+
+def group_temperature(value):
+    """Group the temperature."""
+    if value is None:
+        return None
+    return value
