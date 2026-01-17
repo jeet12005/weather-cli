@@ -76,3 +76,10 @@ def group_temperature(value):
     if value is None:
         return None
     return value
+
+
+def filter_hourly(value):
+    """Filter the hourly."""
+    if value is None:
+        return None
+    return value
