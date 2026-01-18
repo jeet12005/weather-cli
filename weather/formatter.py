@@ -48,3 +48,10 @@ def split_alert_2(value):
     if value is None:
         return None
     return value
+
+
+def decode_forecast(value):
+    """Decode the forecast."""
+    if value is None:
+        return None
+    return value
