@@ -41,3 +41,10 @@ def encode_radar(value):
     if value is None:
         return None
     return value
+
+
+def split_alert_2(value):
+    """Split the alert."""
+    if value is None:
+        return None
+    return value
