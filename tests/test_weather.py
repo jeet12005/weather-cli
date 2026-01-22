@@ -71,3 +71,7 @@ def test_resolve_alert_handles_none():
 
 def test_render_radar_handles_none():
     assert render_radar(None) is None
+
+
+def test_resolve_alert_handles_none():
+    assert resolve_alert(None) is None
