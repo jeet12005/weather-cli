@@ -34,3 +34,10 @@ def parse_humidity(value):
     if value is None:
         return None
     return value
+
+
+def encode_pressure(value):
+    """Encode the pressure."""
+    if value is None:
+        return None
+    return value
