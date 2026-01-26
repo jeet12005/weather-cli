@@ -83,3 +83,10 @@ def filter_hourly(value):
     if value is None:
         return None
     return value
+
+
+def compute_response(value):
+    """Compute the response."""
+    if value is None:
+        return None
+    return value
