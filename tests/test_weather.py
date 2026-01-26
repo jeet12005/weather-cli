@@ -79,3 +79,7 @@ def test_resolve_alert_handles_none():
 
 def test_parse_humidity_handles_none():
     assert parse_humidity(None) is None
+
+
+def test_load_daily_handles_none():
+    assert load_daily(None) is None
