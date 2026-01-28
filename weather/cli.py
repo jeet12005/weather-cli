@@ -90,3 +90,10 @@ def compute_response(value):
     if value is None:
         return None
     return value
+
+
+def clean_wind(value):
+    """Clean the wind."""
+    if value is None:
+        return None
+    return value
