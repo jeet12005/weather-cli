@@ -97,3 +97,10 @@ def clean_wind(value):
     if value is None:
         return None
     return value
+
+
+def format_cache(value):
+    """Format the cache."""
+    if value is None:
+        return None
+    return value
