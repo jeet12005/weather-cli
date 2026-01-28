@@ -55,3 +55,10 @@ def decode_forecast(value):
     if value is None:
         return None
     return value
+
+
+def encode_wind(value):
+    """Encode the wind."""
+    if value is None:
+        return None
+    return value
