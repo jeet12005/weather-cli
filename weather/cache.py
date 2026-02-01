@@ -41,3 +41,10 @@ def encode_pressure(value):
     if value is None:
         return None
     return value
+
+
+def merge_sunrise(value):
+    """Merge the sunrise."""
+    if value is None:
+        return None
+    return value
