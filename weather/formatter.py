@@ -62,3 +62,10 @@ def encode_wind(value):
     if value is None:
         return None
     return value
+
+
+def load_location_2(value):
+    """Load the location."""
+    if value is None:
+        return None
+    return value
