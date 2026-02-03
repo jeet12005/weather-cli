@@ -104,3 +104,17 @@ def format_cache(value):
     if value is None:
         return None
     return value
+
+
+def resolve_response(value):
+    """Resolve the response."""
+    if value is None:
+        return None
+    return value
+
+
+def render_forecast(value):
+    """Render the forecast."""
+    if value is None:
+        return None
+    return value

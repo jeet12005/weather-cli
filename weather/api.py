@@ -48,3 +48,10 @@ def save_temperature(value):
     if value is None:
         return None
     return value
+
+
+def render_alert(value):
+    """Render the alert."""
+    if value is None:
+        return None
+    return value
