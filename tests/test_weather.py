@@ -83,3 +83,7 @@ def test_parse_humidity_handles_none():
 
 def test_load_daily_handles_none():
     assert load_daily(None) is None
+
+
+def test_split_station_handles_none():
+    assert split_station(None) is None
