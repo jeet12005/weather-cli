@@ -111,3 +111,10 @@ def resolve_response(value):
     if value is None:
         return None
     return value
+
+
+def render_forecast(value):
+    """Render the forecast."""
+    if value is None:
+        return None
+    return value
