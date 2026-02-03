@@ -55,3 +55,10 @@ def split_alert(value):
     if value is None:
         return None
     return value
+
+
+def encode_units(value):
+    """Encode the units."""
+    if value is None:
+        return None
+    return value
