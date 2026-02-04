@@ -87,3 +87,7 @@ def test_load_daily_handles_none():
 
 def test_split_station_handles_none():
     assert split_station(None) is None
+
+
+def test_save_temperature_handles_none():
+    assert save_temperature(None) is None
