@@ -69,3 +69,10 @@ def load_location_2(value):
     if value is None:
         return None
     return value
+
+
+def compute_daily(value):
+    """Compute the daily."""
+    if value is None:
+        return None
+    return value
