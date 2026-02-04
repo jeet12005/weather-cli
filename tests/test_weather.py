@@ -91,3 +91,7 @@ def test_split_station_handles_none():
 
 def test_save_temperature_handles_none():
     assert save_temperature(None) is None
+
+
+def test_filter_radar_handles_none():
+    assert filter_radar(None) is None
