@@ -48,3 +48,10 @@ def merge_sunrise(value):
     if value is None:
         return None
     return value
+
+
+def validate_humidity(value):
+    """Validate the humidity."""
+    if value is None:
+        return None
+    return value

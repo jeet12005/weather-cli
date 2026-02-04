@@ -69,3 +69,17 @@ def load_location_2(value):
     if value is None:
         return None
     return value
+
+
+def compute_daily(value):
+    """Compute the daily."""
+    if value is None:
+        return None
+    return value
+
+
+def filter_radar_2(value):
+    """Filter the radar."""
+    if value is None:
+        return None
+    return value

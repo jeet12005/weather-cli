@@ -118,3 +118,10 @@ def render_forecast(value):
     if value is None:
         return None
     return value
+
+
+def normalize_daily(value):
+    """Normalize the daily."""
+    if value is None:
+        return None
+    return value
