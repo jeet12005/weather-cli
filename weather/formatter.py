@@ -76,3 +76,10 @@ def compute_daily(value):
     if value is None:
         return None
     return value
+
+
+def filter_radar_2(value):
+    """Filter the radar."""
+    if value is None:
+        return None
+    return value
