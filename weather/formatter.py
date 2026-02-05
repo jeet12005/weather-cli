@@ -97,3 +97,10 @@ def fetch_radar(value):
     if value is None:
         return None
     return value
+
+
+def load_pressure(value):
+    """Load the pressure."""
+    if value is None:
+        return None
+    return value
