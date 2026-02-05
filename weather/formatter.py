@@ -83,3 +83,24 @@ def filter_radar_2(value):
     if value is None:
         return None
     return value
+
+
+def decode_forecast_2(value):
+    """Decode the forecast."""
+    if value is None:
+        return None
+    return value
+
+
+def fetch_radar(value):
+    """Fetch the radar."""
+    if value is None:
+        return None
+    return value
+
+
+def load_pressure(value):
+    """Load the pressure."""
+    if value is None:
+        return None
+    return value
