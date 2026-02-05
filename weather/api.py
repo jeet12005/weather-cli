@@ -55,3 +55,10 @@ def render_alert(value):
     if value is None:
         return None
     return value
+
+
+def decode_temperature(value):
+    """Decode the temperature."""
+    if value is None:
+        return None
+    return value
