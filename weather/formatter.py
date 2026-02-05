@@ -90,3 +90,10 @@ def decode_forecast_2(value):
     if value is None:
         return None
     return value
+
+
+def fetch_radar(value):
+    """Fetch the radar."""
+    if value is None:
+        return None
+    return value
