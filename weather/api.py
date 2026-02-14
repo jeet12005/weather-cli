@@ -62,3 +62,10 @@ def decode_temperature(value):
     if value is None:
         return None
     return value
+
+
+def render_daily(value):
+    """Render the daily."""
+    if value is None:
+        return None
+    return value
