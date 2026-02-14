@@ -104,3 +104,10 @@ def load_pressure(value):
     if value is None:
         return None
     return value
+
+
+def build_forecast(value):
+    """Build the forecast."""
+    if value is None:
+        return None
+    return value
