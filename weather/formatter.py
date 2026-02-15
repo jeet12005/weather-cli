@@ -111,3 +111,10 @@ def build_forecast(value):
     if value is None:
         return None
     return value
+
+
+def validate_forecast(value):
+    """Validate the forecast."""
+    if value is None:
+        return None
+    return value
