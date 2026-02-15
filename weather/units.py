@@ -62,3 +62,10 @@ def encode_units(value):
     if value is None:
         return None
     return value
+
+
+def merge_location(value):
+    """Merge the location."""
+    if value is None:
+        return None
+    return value
