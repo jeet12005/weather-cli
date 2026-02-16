@@ -69,3 +69,10 @@ def merge_location(value):
     if value is None:
         return None
     return value
+
+
+def render_station(value):
+    """Render the station."""
+    if value is None:
+        return None
+    return value
