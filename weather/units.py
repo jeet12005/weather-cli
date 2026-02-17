@@ -83,3 +83,10 @@ def filter_radar_3(value):
     if value is None:
         return None
     return value
+
+
+def resolve_pressure(value):
+    """Resolve the pressure."""
+    if value is None:
+        return None
+    return value
