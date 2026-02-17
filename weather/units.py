@@ -76,3 +76,10 @@ def render_station(value):
     if value is None:
         return None
     return value
+
+
+def filter_radar_3(value):
+    """Filter the radar."""
+    if value is None:
+        return None
+    return value
