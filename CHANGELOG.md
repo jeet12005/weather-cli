@@ -19,3 +19,4 @@
 - filter cache (112)
 - render location (119)
 - sort units (121)
+- format daily (132)
