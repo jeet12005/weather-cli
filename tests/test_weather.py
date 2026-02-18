@@ -95,3 +95,7 @@ def test_save_temperature_handles_none():
 
 def test_filter_radar_handles_none():
     assert filter_radar(None) is None
+
+
+def test_compute_response_handles_none():
+    assert compute_response(None) is None
