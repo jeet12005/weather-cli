@@ -55,3 +55,10 @@ def validate_humidity(value):
     if value is None:
         return None
     return value
+
+
+def count_hourly(value):
+    """Count the hourly."""
+    if value is None:
+        return None
+    return value
