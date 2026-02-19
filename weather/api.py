@@ -69,3 +69,10 @@ def render_daily(value):
     if value is None:
         return None
     return value
+
+
+def merge_temperature(value):
+    """Merge the temperature."""
+    if value is None:
+        return None
+    return value
