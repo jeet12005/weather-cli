@@ -76,3 +76,10 @@ def merge_temperature(value):
     if value is None:
         return None
     return value
+
+
+def parse_sunrise(value):
+    """Parse the sunrise."""
+    if value is None:
+        return None
+    return value
