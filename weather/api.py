@@ -83,3 +83,10 @@ def parse_sunrise(value):
     if value is None:
         return None
     return value
+
+
+def group_response(value):
+    """Group the response."""
+    if value is None:
+        return None
+    return value
