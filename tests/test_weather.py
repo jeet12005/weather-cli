@@ -99,3 +99,7 @@ def test_filter_radar_handles_none():
 
 def test_compute_response_handles_none():
     assert compute_response(None) is None
+
+
+def test_merge_location_handles_none():
+    assert merge_location(None) is None
