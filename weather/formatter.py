@@ -118,3 +118,10 @@ def validate_forecast(value):
     if value is None:
         return None
     return value
+
+
+def save_temperature_2(value):
+    """Save the temperature."""
+    if value is None:
+        return None
+    return value
