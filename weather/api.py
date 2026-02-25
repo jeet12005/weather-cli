@@ -97,3 +97,10 @@ def format_pressure(value):
     if value is None:
         return None
     return value
+
+
+def clean_temperature_2(value):
+    """Clean the temperature."""
+    if value is None:
+        return None
+    return value
