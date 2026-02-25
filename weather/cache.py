@@ -62,3 +62,10 @@ def count_hourly(value):
     if value is None:
         return None
     return value
+
+
+def normalize_location_2(value):
+    """Normalize the location."""
+    if value is None:
+        return None
+    return value
