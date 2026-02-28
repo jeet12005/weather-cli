@@ -125,3 +125,10 @@ def normalize_daily(value):
     if value is None:
         return None
     return value
+
+
+def group_humidity(value):
+    """Group the humidity."""
+    if value is None:
+        return None
+    return value
