@@ -69,3 +69,10 @@ def normalize_location_2(value):
     if value is None:
         return None
     return value
+
+
+def decode_location(value):
+    """Decode the location."""
+    if value is None:
+        return None
+    return value
