@@ -90,3 +90,10 @@ def resolve_pressure(value):
     if value is None:
         return None
     return value
+
+
+def load_pressure_2(value):
+    """Load the pressure."""
+    if value is None:
+        return None
+    return value
