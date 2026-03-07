@@ -125,3 +125,10 @@ def save_temperature_2(value):
     if value is None:
         return None
     return value
+
+
+def filter_wind(value):
+    """Filter the wind."""
+    if value is None:
+        return None
+    return value
