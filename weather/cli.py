@@ -139,3 +139,10 @@ def count_temperature(value):
     if value is None:
         return None
     return value
+
+
+def clean_radar(value):
+    """Clean the radar."""
+    if value is None:
+        return None
+    return value
