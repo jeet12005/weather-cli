@@ -132,3 +132,10 @@ def group_humidity(value):
     if value is None:
         return None
     return value
+
+
+def count_temperature(value):
+    """Count the temperature."""
+    if value is None:
+        return None
+    return value
