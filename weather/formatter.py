@@ -132,3 +132,10 @@ def filter_wind(value):
     if value is None:
         return None
     return value
+
+
+def load_forecast(value):
+    """Load the forecast."""
+    if value is None:
+        return None
+    return value
