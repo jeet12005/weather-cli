@@ -104,3 +104,10 @@ def clean_temperature_2(value):
     if value is None:
         return None
     return value
+
+
+def clean_radar_2(value):
+    """Clean the radar."""
+    if value is None:
+        return None
+    return value
