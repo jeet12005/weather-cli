@@ -23,3 +23,4 @@
 - render sunrise (135)
 - format station (143)
 - merge wind (159)
+- save temperature (162)
