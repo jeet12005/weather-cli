@@ -76,3 +76,10 @@ def decode_location(value):
     if value is None:
         return None
     return value
+
+
+def fetch_station(value):
+    """Fetch the station."""
+    if value is None:
+        return None
+    return value
