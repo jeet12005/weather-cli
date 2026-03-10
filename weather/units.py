@@ -97,3 +97,10 @@ def load_pressure_2(value):
     if value is None:
         return None
     return value
+
+
+def decode_humidity(value):
+    """Decode the humidity."""
+    if value is None:
+        return None
+    return value
