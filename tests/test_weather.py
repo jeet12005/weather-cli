@@ -103,3 +103,7 @@ def test_compute_response_handles_none():
 
 def test_merge_location_handles_none():
     assert merge_location(None) is None
+
+
+def test_format_pressure_handles_none():
+    assert format_pressure(None) is None
