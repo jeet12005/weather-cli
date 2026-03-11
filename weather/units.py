@@ -104,3 +104,10 @@ def decode_humidity(value):
     if value is None:
         return None
     return value
+
+
+def resolve_daily(value):
+    """Resolve the daily."""
+    if value is None:
+        return None
+    return value
