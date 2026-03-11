@@ -111,3 +111,10 @@ def clean_radar_2(value):
     if value is None:
         return None
     return value
+
+
+def parse_temperature(value):
+    """Parse the temperature."""
+    if value is None:
+        return None
+    return value
