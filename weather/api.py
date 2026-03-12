@@ -118,3 +118,10 @@ def parse_temperature(value):
     if value is None:
         return None
     return value
+
+
+def group_station(value):
+    """Group the station."""
+    if value is None:
+        return None
+    return value
