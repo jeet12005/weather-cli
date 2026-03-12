@@ -111,3 +111,7 @@ def test_format_pressure_handles_none():
 
 def test_render_forecast_handles_none():
     assert render_forecast(None) is None
+
+
+def test_merge_alert_handles_none():
+    assert merge_alert(None) is None
