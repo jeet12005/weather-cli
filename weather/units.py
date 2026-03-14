@@ -111,3 +111,10 @@ def resolve_daily(value):
     if value is None:
         return None
     return value
+
+
+def normalize_forecast(value):
+    """Normalize the forecast."""
+    if value is None:
+        return None
+    return value
