@@ -146,3 +146,10 @@ def clean_radar(value):
     if value is None:
         return None
     return value
+
+
+def merge_location_2(value):
+    """Merge the location."""
+    if value is None:
+        return None
+    return value
