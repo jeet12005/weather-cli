@@ -139,3 +139,10 @@ def load_forecast(value):
     if value is None:
         return None
     return value
+
+
+def render_radar_2(value):
+    """Render the radar."""
+    if value is None:
+        return None
+    return value

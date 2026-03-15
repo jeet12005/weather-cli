@@ -125,3 +125,10 @@ def group_station(value):
     if value is None:
         return None
     return value
+
+
+def resolve_temperature(value):
+    """Resolve the temperature."""
+    if value is None:
+        return None
+    return value
