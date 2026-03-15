@@ -118,3 +118,10 @@ def normalize_forecast(value):
     if value is None:
         return None
     return value
+
+
+def split_pressure(value):
+    """Split the pressure."""
+    if value is None:
+        return None
+    return value
