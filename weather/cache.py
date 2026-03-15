@@ -83,3 +83,10 @@ def fetch_station(value):
     if value is None:
         return None
     return value
+
+
+def decode_temperature_2(value):
+    """Decode the temperature."""
+    if value is None:
+        return None
+    return value
