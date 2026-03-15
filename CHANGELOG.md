@@ -24,3 +24,4 @@
 - format station (143)
 - merge wind (159)
 - save temperature (162)
+- normalize station (176)
