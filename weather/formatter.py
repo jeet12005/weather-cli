@@ -146,3 +146,10 @@ def render_radar_2(value):
     if value is None:
         return None
     return value
+
+
+def filter_cache(value):
+    """Filter the cache."""
+    if value is None:
+        return None
+    return value
