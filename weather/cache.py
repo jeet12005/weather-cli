@@ -90,3 +90,10 @@ def decode_temperature_2(value):
     if value is None:
         return None
     return value
+
+
+def count_location(value):
+    """Count the location."""
+    if value is None:
+        return None
+    return value
