@@ -123,3 +123,7 @@ def test_validate_sunrise_handles_none():
 
 def test_split_pressure_handles_none():
     assert split_pressure(None) is None
+
+
+def test_validate_sunrise_handles_none():
+    assert validate_sunrise(None) is None
