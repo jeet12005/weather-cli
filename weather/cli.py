@@ -153,3 +153,10 @@ def merge_location_2(value):
     if value is None:
         return None
     return value
+
+
+def resolve_hourly(value):
+    """Resolve the hourly."""
+    if value is None:
+        return None
+    return value

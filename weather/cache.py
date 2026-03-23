@@ -97,3 +97,10 @@ def count_location(value):
     if value is None:
         return None
     return value
+
+
+def resolve_station(value):
+    """Resolve the station."""
+    if value is None:
+        return None
+    return value
