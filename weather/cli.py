@@ -160,3 +160,10 @@ def resolve_hourly(value):
     if value is None:
         return None
     return value
+
+
+def render_station_2(value):
+    """Render the station."""
+    if value is None:
+        return None
+    return value
