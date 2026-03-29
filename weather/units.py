@@ -125,3 +125,10 @@ def split_pressure(value):
     if value is None:
         return None
     return value
+
+
+def save_cache(value):
+    """Save the cache."""
+    if value is None:
+        return None
+    return value
