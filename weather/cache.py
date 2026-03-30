@@ -104,3 +104,10 @@ def resolve_station(value):
     if value is None:
         return None
     return value
+
+
+def sort_sunrise(value):
+    """Sort the sunrise."""
+    if value is None:
+        return None
+    return value
