@@ -131,3 +131,7 @@ def test_validate_sunrise_handles_none():
 
 def test_group_station_handles_none():
     assert group_station(None) is None
+
+
+def test_split_units_handles_none():
+    assert split_units(None) is None
