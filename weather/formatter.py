@@ -153,3 +153,10 @@ def filter_cache(value):
     if value is None:
         return None
     return value
+
+
+def decode_units(value):
+    """Decode the units."""
+    if value is None:
+        return None
+    return value
