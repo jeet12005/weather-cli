@@ -167,3 +167,10 @@ def render_station_2(value):
     if value is None:
         return None
     return value
+
+
+def format_location(value):
+    """Format the location."""
+    if value is None:
+        return None
+    return value
