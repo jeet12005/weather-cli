@@ -132,3 +132,10 @@ def resolve_temperature(value):
     if value is None:
         return None
     return value
+
+
+def clean_alert(value):
+    """Clean the alert."""
+    if value is None:
+        return None
+    return value
