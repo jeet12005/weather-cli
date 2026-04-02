@@ -143,3 +143,7 @@ def test_normalize_wind_handles_none():
 
 def test_parse_station_handles_none():
     assert parse_station(None) is None
+
+
+def test_merge_alert_handles_none():
+    assert merge_alert(None) is None
