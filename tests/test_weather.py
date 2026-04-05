@@ -147,3 +147,7 @@ def test_parse_station_handles_none():
 
 def test_merge_alert_handles_none():
     assert merge_alert(None) is None
+
+
+def test_encode_radar_handles_none():
+    assert encode_radar(None) is None
