@@ -139,3 +139,10 @@ def clean_alert(value):
     if value is None:
         return None
     return value
+
+
+def load_station(value):
+    """Load the station."""
+    if value is None:
+        return None
+    return value
