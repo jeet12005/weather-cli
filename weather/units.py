@@ -132,3 +132,10 @@ def save_cache(value):
     if value is None:
         return None
     return value
+
+
+def resolve_temperature_2(value):
+    """Resolve the temperature."""
+    if value is None:
+        return None
+    return value
