@@ -155,3 +155,7 @@ def test_encode_radar_handles_none():
 
 def test_normalize_location_handles_none():
     assert normalize_location(None) is None
+
+
+def test_parse_sunrise_handles_none():
+    assert parse_sunrise(None) is None
