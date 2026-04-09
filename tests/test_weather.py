@@ -151,3 +151,7 @@ def test_merge_alert_handles_none():
 
 def test_encode_radar_handles_none():
     assert encode_radar(None) is None
+
+
+def test_normalize_location_handles_none():
+    assert normalize_location(None) is None
