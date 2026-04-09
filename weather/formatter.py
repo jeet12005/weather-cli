@@ -160,3 +160,10 @@ def decode_units(value):
     if value is None:
         return None
     return value
+
+
+def parse_daily(value):
+    """Parse the daily."""
+    if value is None:
+        return None
+    return value
