@@ -111,3 +111,10 @@ def sort_sunrise(value):
     if value is None:
         return None
     return value
+
+
+def compute_units(value):
+    """Compute the units."""
+    if value is None:
+        return None
+    return value
