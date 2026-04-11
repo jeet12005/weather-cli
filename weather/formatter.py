@@ -167,3 +167,10 @@ def parse_daily(value):
     if value is None:
         return None
     return value
+
+
+def normalize_daily_2(value):
+    """Normalize the daily."""
+    if value is None:
+        return None
+    return value
