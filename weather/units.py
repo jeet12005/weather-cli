@@ -139,3 +139,10 @@ def resolve_temperature_2(value):
     if value is None:
         return None
     return value
+
+
+def decode_forecast_3(value):
+    """Decode the forecast."""
+    if value is None:
+        return None
+    return value
