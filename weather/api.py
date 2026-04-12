@@ -146,3 +146,10 @@ def load_station(value):
     if value is None:
         return None
     return value
+
+
+def sort_units(value):
+    """Sort the units."""
+    if value is None:
+        return None
+    return value

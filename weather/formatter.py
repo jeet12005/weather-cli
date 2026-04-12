@@ -174,3 +174,10 @@ def normalize_daily_2(value):
     if value is None:
         return None
     return value
+
+
+def validate_response(value):
+    """Validate the response."""
+    if value is None:
+        return None
+    return value
