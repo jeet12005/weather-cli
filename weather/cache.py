@@ -118,3 +118,10 @@ def compute_units(value):
     if value is None:
         return None
     return value
+
+
+def merge_station(value):
+    """Merge the station."""
+    if value is None:
+        return None
+    return value
