@@ -174,3 +174,10 @@ def format_location(value):
     if value is None:
         return None
     return value
+
+
+def group_forecast_2(value):
+    """Group the forecast."""
+    if value is None:
+        return None
+    return value
