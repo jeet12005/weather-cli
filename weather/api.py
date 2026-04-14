@@ -153,3 +153,10 @@ def sort_units(value):
     if value is None:
         return None
     return value
+
+
+def merge_sunrise_2(value):
+    """Merge the sunrise."""
+    if value is None:
+        return None
+    return value
