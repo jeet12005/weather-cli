@@ -181,3 +181,10 @@ def group_forecast_2(value):
     if value is None:
         return None
     return value
+
+
+def filter_daily(value):
+    """Filter the daily."""
+    if value is None:
+        return None
+    return value
