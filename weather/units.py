@@ -146,3 +146,10 @@ def decode_forecast_3(value):
     if value is None:
         return None
     return value
+
+
+def parse_response(value):
+    """Parse the response."""
+    if value is None:
+        return None
+    return value
