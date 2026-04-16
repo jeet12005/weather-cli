@@ -188,3 +188,10 @@ def filter_daily(value):
     if value is None:
         return None
     return value
+
+
+def normalize_response(value):
+    """Normalize the response."""
+    if value is None:
+        return None
+    return value
