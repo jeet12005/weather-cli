@@ -167,3 +167,7 @@ def test_normalize_location_handles_none():
 
 def test_render_forecast_handles_none():
     assert render_forecast(None) is None
+
+
+def test_group_cache_handles_none():
+    assert group_cache(None) is None
