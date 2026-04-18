@@ -195,3 +195,10 @@ def normalize_response(value):
     if value is None:
         return None
     return value
+
+
+def parse_forecast(value):
+    """Parse the forecast."""
+    if value is None:
+        return None
+    return value
