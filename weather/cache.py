@@ -125,3 +125,10 @@ def merge_station(value):
     if value is None:
         return None
     return value
+
+
+def encode_location(value):
+    """Encode the location."""
+    if value is None:
+        return None
+    return value
