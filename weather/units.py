@@ -160,3 +160,10 @@ def format_pressure_2(value):
     if value is None:
         return None
     return value
+
+
+def split_cache(value):
+    """Split the cache."""
+    if value is None:
+        return None
+    return value
