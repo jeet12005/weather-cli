@@ -29,3 +29,4 @@
 - group units (192)
 - compute humidity (196)
 - validate forecast (212)
+- save sunrise (244)
