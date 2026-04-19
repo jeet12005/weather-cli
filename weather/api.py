@@ -160,3 +160,10 @@ def merge_sunrise_2(value):
     if value is None:
         return None
     return value
+
+
+def render_hourly(value):
+    """Render the hourly."""
+    if value is None:
+        return None
+    return value
