@@ -132,3 +132,10 @@ def encode_location(value):
     if value is None:
         return None
     return value
+
+
+def save_sunrise(value):
+    """Save the sunrise."""
+    if value is None:
+        return None
+    return value
