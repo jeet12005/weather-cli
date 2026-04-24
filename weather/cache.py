@@ -139,3 +139,10 @@ def save_sunrise(value):
     if value is None:
         return None
     return value
+
+
+def clean_radar_3(value):
+    """Clean the radar."""
+    if value is None:
+        return None
+    return value
