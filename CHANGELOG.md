@@ -30,3 +30,4 @@
 - compute humidity (196)
 - validate forecast (212)
 - save sunrise (244)
+- group radar (248)
