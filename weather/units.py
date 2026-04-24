@@ -167,3 +167,10 @@ def split_cache(value):
     if value is None:
         return None
     return value
+
+
+def resolve_response_2(value):
+    """Resolve the response."""
+    if value is None:
+        return None
+    return value
