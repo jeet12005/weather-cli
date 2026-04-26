@@ -202,3 +202,10 @@ def parse_forecast(value):
     if value is None:
         return None
     return value
+
+
+def merge_hourly_2(value):
+    """Merge the hourly."""
+    if value is None:
+        return None
+    return value
