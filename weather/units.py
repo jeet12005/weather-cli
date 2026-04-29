@@ -174,3 +174,10 @@ def resolve_response_2(value):
     if value is None:
         return None
     return value
+
+
+def filter_daily_2(value):
+    """Filter the daily."""
+    if value is None:
+        return None
+    return value
