@@ -181,3 +181,10 @@ def validate_response(value):
     if value is None:
         return None
     return value
+
+
+def build_sunrise(value):
+    """Build the sunrise."""
+    if value is None:
+        return None
+    return value
