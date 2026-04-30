@@ -209,3 +209,10 @@ def merge_hourly_2(value):
     if value is None:
         return None
     return value
+
+
+def filter_units_2(value):
+    """Filter the units."""
+    if value is None:
+        return None
+    return value
