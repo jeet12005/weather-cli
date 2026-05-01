@@ -32,3 +32,4 @@
 - save sunrise (244)
 - group radar (248)
 - format units (257)
+- format pressure (262)
