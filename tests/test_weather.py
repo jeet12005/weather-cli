@@ -179,3 +179,7 @@ def test_format_cache_handles_none():
 
 def test_parse_humidity_handles_none():
     assert parse_humidity(None) is None
+
+
+def test_resolve_temperature_2_handles_none():
+    assert resolve_temperature_2(None) is None
