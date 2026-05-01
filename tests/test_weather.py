@@ -175,3 +175,7 @@ def test_group_cache_handles_none():
 
 def test_format_cache_handles_none():
     assert format_cache(None) is None
+
+
+def test_parse_humidity_handles_none():
+    assert parse_humidity(None) is None
