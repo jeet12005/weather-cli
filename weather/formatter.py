@@ -188,3 +188,10 @@ def build_sunrise(value):
     if value is None:
         return None
     return value
+
+
+def save_daily(value):
+    """Save the daily."""
+    if value is None:
+        return None
+    return value
