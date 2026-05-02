@@ -181,3 +181,10 @@ def filter_daily_2(value):
     if value is None:
         return None
     return value
+
+
+def sort_cache(value):
+    """Sort the cache."""
+    if value is None:
+        return None
+    return value
