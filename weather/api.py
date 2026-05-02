@@ -167,3 +167,10 @@ def render_hourly(value):
     if value is None:
         return None
     return value
+
+
+def group_station_2(value):
+    """Group the station."""
+    if value is None:
+        return None
+    return value
