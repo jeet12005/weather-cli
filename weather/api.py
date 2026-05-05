@@ -174,3 +174,10 @@ def group_station_2(value):
     if value is None:
         return None
     return value
+
+
+def resolve_response_3(value):
+    """Resolve the response."""
+    if value is None:
+        return None
+    return value
