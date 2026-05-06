@@ -181,3 +181,10 @@ def resolve_response_3(value):
     if value is None:
         return None
     return value
+
+
+def split_response(value):
+    """Split the response."""
+    if value is None:
+        return None
+    return value
