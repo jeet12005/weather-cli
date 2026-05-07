@@ -195,3 +195,10 @@ def save_daily(value):
     if value is None:
         return None
     return value
+
+
+def build_pressure(value):
+    """Build the pressure."""
+    if value is None:
+        return None
+    return value
