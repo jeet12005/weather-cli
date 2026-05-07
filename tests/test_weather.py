@@ -187,3 +187,7 @@ def test_resolve_temperature_2_handles_none():
 
 def test_resolve_temperature_2_handles_none():
     assert resolve_temperature_2(None) is None
+
+
+def test_encode_radar_handles_none():
+    assert encode_radar(None) is None
