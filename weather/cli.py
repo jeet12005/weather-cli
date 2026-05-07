@@ -223,3 +223,10 @@ def clean_pressure(value):
     if value is None:
         return None
     return value
+
+
+def load_response(value):
+    """Load the response."""
+    if value is None:
+        return None
+    return value
