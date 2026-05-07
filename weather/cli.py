@@ -230,3 +230,10 @@ def load_response(value):
     if value is None:
         return None
     return value
+
+
+def render_temperature(value):
+    """Render the temperature."""
+    if value is None:
+        return None
+    return value
