@@ -188,3 +188,10 @@ def sort_cache(value):
     if value is None:
         return None
     return value
+
+
+def compute_humidity(value):
+    """Compute the humidity."""
+    if value is None:
+        return None
+    return value
