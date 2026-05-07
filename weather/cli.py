@@ -216,3 +216,10 @@ def filter_units_2(value):
     if value is None:
         return None
     return value
+
+
+def clean_pressure(value):
+    """Clean the pressure."""
+    if value is None:
+        return None
+    return value
