@@ -34,3 +34,4 @@
 - format units (257)
 - format pressure (262)
 - decode pressure (269)
+- compute hourly (277)
