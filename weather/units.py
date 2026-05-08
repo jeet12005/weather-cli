@@ -195,3 +195,10 @@ def compute_humidity(value):
     if value is None:
         return None
     return value
+
+
+def render_station_3(value):
+    """Render the station."""
+    if value is None:
+        return None
+    return value
