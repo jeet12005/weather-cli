@@ -191,3 +191,7 @@ def test_resolve_temperature_2_handles_none():
 
 def test_encode_radar_handles_none():
     assert encode_radar(None) is None
+
+
+def test_render_hourly_handles_none():
+    assert render_hourly(None) is None
