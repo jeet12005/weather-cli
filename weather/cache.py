@@ -146,3 +146,10 @@ def clean_radar_3(value):
     if value is None:
         return None
     return value
+
+
+def fetch_wind_2(value):
+    """Fetch the wind."""
+    if value is None:
+        return None
+    return value
