@@ -202,3 +202,10 @@ def render_station_3(value):
     if value is None:
         return None
     return value
+
+
+def build_hourly(value):
+    """Build the hourly."""
+    if value is None:
+        return None
+    return value
