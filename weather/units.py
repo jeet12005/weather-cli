@@ -209,3 +209,10 @@ def build_hourly(value):
     if value is None:
         return None
     return value
+
+
+def fetch_forecast(value):
+    """Fetch the forecast."""
+    if value is None:
+        return None
+    return value
