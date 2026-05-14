@@ -216,3 +216,10 @@ def fetch_forecast(value):
     if value is None:
         return None
     return value
+
+
+def parse_wind(value):
+    """Parse the wind."""
+    if value is None:
+        return None
+    return value
