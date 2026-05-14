@@ -188,3 +188,10 @@ def split_response(value):
     if value is None:
         return None
     return value
+
+
+def group_humidity_2(value):
+    """Group the humidity."""
+    if value is None:
+        return None
+    return value
