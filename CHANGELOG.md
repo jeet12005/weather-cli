@@ -35,3 +35,4 @@
 - format pressure (262)
 - decode pressure (269)
 - compute hourly (277)
+- encode temperature (284)
