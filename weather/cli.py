@@ -237,3 +237,10 @@ def render_temperature(value):
     if value is None:
         return None
     return value
+
+
+def clean_station(value):
+    """Clean the station."""
+    if value is None:
+        return None
+    return value
