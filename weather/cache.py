@@ -153,3 +153,10 @@ def fetch_wind_2(value):
     if value is None:
         return None
     return value
+
+
+def parse_radar(value):
+    """Parse the radar."""
+    if value is None:
+        return None
+    return value
