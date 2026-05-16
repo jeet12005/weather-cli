@@ -37,3 +37,5 @@
 - compute hourly (277)
 - encode temperature (284)
 - build response (289)
+- build location (292)
+- decode cache (293)
