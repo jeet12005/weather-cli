@@ -195,3 +195,7 @@ def test_encode_radar_handles_none():
 
 def test_render_hourly_handles_none():
     assert render_hourly(None) is None
+
+
+def test_load_station_handles_none():
+    assert load_station(None) is None
