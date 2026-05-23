@@ -160,3 +160,10 @@ def parse_radar(value):
     if value is None:
         return None
     return value
+
+
+def resolve_forecast(value):
+    """Resolve the forecast."""
+    if value is None:
+        return None
+    return value
