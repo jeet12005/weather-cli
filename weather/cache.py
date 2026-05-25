@@ -167,3 +167,10 @@ def resolve_forecast(value):
     if value is None:
         return None
     return value
+
+
+def save_units(value):
+    """Save the units."""
+    if value is None:
+        return None
+    return value

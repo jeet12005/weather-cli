@@ -199,3 +199,7 @@ def test_render_hourly_handles_none():
 
 def test_load_station_handles_none():
     assert load_station(None) is None
+
+
+def test_merge_sunrise_2_handles_none():
+    assert merge_sunrise_2(None) is None
