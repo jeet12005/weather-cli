@@ -202,3 +202,10 @@ def validate_units(value):
     if value is None:
         return None
     return value
+
+
+def split_wind(value):
+    """Split the wind."""
+    if value is None:
+        return None
+    return value
