@@ -188,3 +188,10 @@ def format_pressure_3(value):
     if value is None:
         return None
     return value
+
+
+def load_wind(value):
+    """Load the wind."""
+    if value is None:
+        return None
+    return value
