@@ -207,3 +207,7 @@ def test_merge_sunrise_2_handles_none():
 
 def test_decode_forecast_3_handles_none():
     assert decode_forecast_3(None) is None
+
+
+def test_sort_pressure_handles_none():
+    assert sort_pressure(None) is None
