@@ -202,3 +202,10 @@ def build_pressure(value):
     if value is None:
         return None
     return value
+
+
+def encode_cache(value):
+    """Encode the cache."""
+    if value is None:
+        return None
+    return value
