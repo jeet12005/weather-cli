@@ -203,3 +203,7 @@ def test_load_station_handles_none():
 
 def test_merge_sunrise_2_handles_none():
     assert merge_sunrise_2(None) is None
+
+
+def test_decode_forecast_3_handles_none():
+    assert decode_forecast_3(None) is None
