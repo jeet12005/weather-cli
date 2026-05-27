@@ -174,3 +174,10 @@ def save_units(value):
     if value is None:
         return None
     return value
+
+
+def group_response_2(value):
+    """Group the response."""
+    if value is None:
+        return None
+    return value
