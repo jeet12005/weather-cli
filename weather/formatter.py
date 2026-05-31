@@ -209,3 +209,10 @@ def encode_cache(value):
     if value is None:
         return None
     return value
+
+
+def parse_radar_2(value):
+    """Parse the radar."""
+    if value is None:
+        return None
+    return value
