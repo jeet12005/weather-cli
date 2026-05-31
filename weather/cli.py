@@ -244,3 +244,10 @@ def clean_station(value):
     if value is None:
         return None
     return value
+
+
+def count_location_2(value):
+    """Count the location."""
+    if value is None:
+        return None
+    return value
