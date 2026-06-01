@@ -223,3 +223,10 @@ def resolve_location(value):
     if value is None:
         return None
     return value
+
+
+def build_cache(value):
+    """Build the cache."""
+    if value is None:
+        return None
+    return value
