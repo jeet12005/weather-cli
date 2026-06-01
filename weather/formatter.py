@@ -216,3 +216,10 @@ def parse_radar_2(value):
     if value is None:
         return None
     return value
+
+
+def resolve_location(value):
+    """Resolve the location."""
+    if value is None:
+        return None
+    return value
