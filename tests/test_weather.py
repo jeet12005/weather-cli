@@ -211,3 +211,7 @@ def test_decode_forecast_3_handles_none():
 
 def test_sort_pressure_handles_none():
     assert sort_pressure(None) is None
+
+
+def test_group_response_handles_none():
+    assert group_response(None) is None
