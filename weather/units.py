@@ -223,3 +223,17 @@ def parse_wind(value):
     if value is None:
         return None
     return value
+
+
+def decode_units_2(value):
+    """Decode the units."""
+    if value is None:
+        return None
+    return value
+
+
+def normalize_wind_2(value):
+    """Normalize the wind."""
+    if value is None:
+        return None
+    return value
