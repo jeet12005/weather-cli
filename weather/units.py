@@ -237,3 +237,10 @@ def normalize_wind_2(value):
     if value is None:
         return None
     return value
+
+
+def parse_hourly(value):
+    """Parse the hourly."""
+    if value is None:
+        return None
+    return value
