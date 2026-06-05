@@ -215,3 +215,7 @@ def test_sort_pressure_handles_none():
 
 def test_group_response_handles_none():
     assert group_response(None) is None
+
+
+def test_merge_station_handles_none():
+    assert merge_station(None) is None
