@@ -209,3 +209,10 @@ def split_wind(value):
     if value is None:
         return None
     return value
+
+
+def encode_hourly(value):
+    """Encode the hourly."""
+    if value is None:
+        return None
+    return value
