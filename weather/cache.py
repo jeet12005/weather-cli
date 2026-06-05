@@ -195,3 +195,10 @@ def load_wind(value):
     if value is None:
         return None
     return value
+
+
+def format_cache_2(value):
+    """Format the cache."""
+    if value is None:
+        return None
+    return value
