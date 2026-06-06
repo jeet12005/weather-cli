@@ -230,3 +230,10 @@ def build_cache(value):
     if value is None:
         return None
     return value
+
+
+def sort_hourly(value):
+    """Sort the hourly."""
+    if value is None:
+        return None
+    return value
