@@ -219,3 +219,7 @@ def test_group_response_handles_none():
 
 def test_merge_station_handles_none():
     assert merge_station(None) is None
+
+
+def test_count_hourly_handles_none():
+    assert count_hourly(None) is None
