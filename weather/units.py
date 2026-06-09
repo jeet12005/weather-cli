@@ -244,3 +244,10 @@ def parse_hourly(value):
     if value is None:
         return None
     return value
+
+
+def format_pressure_4(value):
+    """Format the pressure."""
+    if value is None:
+        return None
+    return value
