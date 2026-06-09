@@ -251,3 +251,10 @@ def format_pressure_4(value):
     if value is None:
         return None
     return value
+
+
+def validate_forecast_2(value):
+    """Validate the forecast."""
+    if value is None:
+        return None
+    return value
