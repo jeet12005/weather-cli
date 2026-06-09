@@ -244,3 +244,10 @@ def render_sunrise(value):
     if value is None:
         return None
     return value
+
+
+def sort_wind(value):
+    """Sort the wind."""
+    if value is None:
+        return None
+    return value
