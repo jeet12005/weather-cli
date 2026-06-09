@@ -237,3 +237,17 @@ def sort_hourly(value):
     if value is None:
         return None
     return value
+
+
+def render_sunrise(value):
+    """Render the sunrise."""
+    if value is None:
+        return None
+    return value
+
+
+def sort_wind(value):
+    """Sort the wind."""
+    if value is None:
+        return None
+    return value

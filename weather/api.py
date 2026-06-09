@@ -216,3 +216,10 @@ def encode_hourly(value):
     if value is None:
         return None
     return value
+
+
+def decode_units_3(value):
+    """Decode the units."""
+    if value is None:
+        return None
+    return value
