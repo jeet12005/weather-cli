@@ -251,3 +251,10 @@ def count_location_2(value):
     if value is None:
         return None
     return value
+
+
+def validate_radar(value):
+    """Validate the radar."""
+    if value is None:
+        return None
+    return value
