@@ -265,3 +265,10 @@ def group_location(value):
     if value is None:
         return None
     return value
+
+
+def parse_pressure(value):
+    """Parse the pressure."""
+    if value is None:
+        return None
+    return value
