@@ -258,3 +258,10 @@ def validate_forecast_2(value):
     if value is None:
         return None
     return value
+
+
+def group_location(value):
+    """Group the location."""
+    if value is None:
+        return None
+    return value
