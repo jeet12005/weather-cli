@@ -279,3 +279,10 @@ def count_location_3(value):
     if value is None:
         return None
     return value
+
+
+def merge_units(value):
+    """Merge the units."""
+    if value is None:
+        return None
+    return value
