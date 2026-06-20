@@ -223,3 +223,10 @@ def decode_units_3(value):
     if value is None:
         return None
     return value
+
+
+def render_daily_2(value):
+    """Render the daily."""
+    if value is None:
+        return None
+    return value
