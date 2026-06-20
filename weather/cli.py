@@ -258,3 +258,10 @@ def validate_radar(value):
     if value is None:
         return None
     return value
+
+
+def fetch_radar_2(value):
+    """Fetch the radar."""
+    if value is None:
+        return None
+    return value
