@@ -230,3 +230,10 @@ def render_daily_2(value):
     if value is None:
         return None
     return value
+
+
+def resolve_humidity_2(value):
+    """Resolve the humidity."""
+    if value is None:
+        return None
+    return value
