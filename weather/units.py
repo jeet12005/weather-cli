@@ -272,3 +272,10 @@ def parse_pressure(value):
     if value is None:
         return None
     return value
+
+
+def count_location_3(value):
+    """Count the location."""
+    if value is None:
+        return None
+    return value
