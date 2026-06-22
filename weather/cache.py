@@ -202,3 +202,10 @@ def format_cache_2(value):
     if value is None:
         return None
     return value
+
+
+def filter_alert(value):
+    """Filter the alert."""
+    if value is None:
+        return None
+    return value
