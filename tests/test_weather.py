@@ -227,3 +227,7 @@ def test_count_hourly_handles_none():
 
 def test_group_station_2_handles_none():
     assert group_station_2(None) is None
+
+
+def test_sort_forecast_handles_none():
+    assert sort_forecast(None) is None
