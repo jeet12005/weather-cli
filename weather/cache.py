@@ -209,3 +209,10 @@ def filter_alert(value):
     if value is None:
         return None
     return value
+
+
+def format_cache_3(value):
+    """Format the cache."""
+    if value is None:
+        return None
+    return value
