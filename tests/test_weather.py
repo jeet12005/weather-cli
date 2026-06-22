@@ -223,3 +223,7 @@ def test_merge_station_handles_none():
 
 def test_count_hourly_handles_none():
     assert count_hourly(None) is None
+
+
+def test_group_station_2_handles_none():
+    assert group_station_2(None) is None
