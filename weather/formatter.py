@@ -258,3 +258,10 @@ def parse_radar_3(value):
     if value is None:
         return None
     return value
+
+
+def build_humidity(value):
+    """Build the humidity."""
+    if value is None:
+        return None
+    return value
