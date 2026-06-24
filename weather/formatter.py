@@ -251,3 +251,17 @@ def sort_wind(value):
     if value is None:
         return None
     return value
+
+
+def parse_radar_3(value):
+    """Parse the radar."""
+    if value is None:
+        return None
+    return value
+
+
+def build_humidity(value):
+    """Build the humidity."""
+    if value is None:
+        return None
+    return value

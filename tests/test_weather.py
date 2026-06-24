@@ -231,3 +231,7 @@ def test_group_station_2_handles_none():
 
 def test_sort_forecast_handles_none():
     assert sort_forecast(None) is None
+
+
+def test_compute_daily_handles_none():
+    assert compute_daily(None) is None
