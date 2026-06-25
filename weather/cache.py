@@ -216,3 +216,10 @@ def format_cache_3(value):
     if value is None:
         return None
     return value
+
+
+def resolve_cache(value):
+    """Resolve the cache."""
+    if value is None:
+        return None
+    return value
