@@ -237,3 +237,10 @@ def resolve_humidity_2(value):
     if value is None:
         return None
     return value
+
+
+def filter_hourly_2(value):
+    """Filter the hourly."""
+    if value is None:
+        return None
+    return value
