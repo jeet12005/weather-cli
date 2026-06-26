@@ -235,3 +235,7 @@ def test_sort_forecast_handles_none():
 
 def test_compute_daily_handles_none():
     assert compute_daily(None) is None
+
+
+def test_filter_alert_handles_none():
+    assert filter_alert(None) is None
