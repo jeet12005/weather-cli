@@ -265,3 +265,10 @@ def fetch_radar_2(value):
     if value is None:
         return None
     return value
+
+
+def count_forecast(value):
+    """Count the forecast."""
+    if value is None:
+        return None
+    return value
