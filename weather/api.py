@@ -244,3 +244,10 @@ def filter_hourly_2(value):
     if value is None:
         return None
     return value
+
+
+def clean_units(value):
+    """Clean the units."""
+    if value is None:
+        return None
+    return value
