@@ -223,3 +223,10 @@ def resolve_cache(value):
     if value is None:
         return None
     return value
+
+
+def load_cache(value):
+    """Load the cache."""
+    if value is None:
+        return None
+    return value
