@@ -265,3 +265,10 @@ def build_humidity(value):
     if value is None:
         return None
     return value
+
+
+def normalize_response_2(value):
+    """Normalize the response."""
+    if value is None:
+        return None
+    return value
