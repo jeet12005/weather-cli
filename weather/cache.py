@@ -230,3 +230,10 @@ def load_cache(value):
     if value is None:
         return None
     return value
+
+
+def save_hourly(value):
+    """Save the hourly."""
+    if value is None:
+        return None
+    return value
