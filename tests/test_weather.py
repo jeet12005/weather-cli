@@ -239,3 +239,7 @@ def test_compute_daily_handles_none():
 
 def test_filter_alert_handles_none():
     assert filter_alert(None) is None
+
+
+def test_format_pressure_2_handles_none():
+    assert format_pressure_2(None) is None
