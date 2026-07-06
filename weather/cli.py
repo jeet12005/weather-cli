@@ -272,3 +272,10 @@ def count_forecast(value):
     if value is None:
         return None
     return value
+
+
+def resolve_forecast_2(value):
+    """Resolve the forecast."""
+    if value is None:
+        return None
+    return value
