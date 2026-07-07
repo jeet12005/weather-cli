@@ -237,3 +237,10 @@ def save_hourly(value):
     if value is None:
         return None
     return value
+
+
+def render_location(value):
+    """Render the location."""
+    if value is None:
+        return None
+    return value
