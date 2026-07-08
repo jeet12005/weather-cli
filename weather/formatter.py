@@ -272,3 +272,10 @@ def normalize_response_2(value):
     if value is None:
         return None
     return value
+
+
+def filter_humidity(value):
+    """Filter the humidity."""
+    if value is None:
+        return None
+    return value
