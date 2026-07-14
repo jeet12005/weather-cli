@@ -247,3 +247,11 @@ def test_format_pressure_2_handles_none():
 
 def test_build_humidity_handles_none():
     assert build_humidity(None) is None
+
+
+def test_parse_wind_handles_none():
+    assert parse_wind(None) is None
+
+
+def test_decode_forecast_handles_none():
+    assert decode_forecast(None) is None

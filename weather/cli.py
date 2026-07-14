@@ -279,3 +279,10 @@ def resolve_forecast_2(value):
     if value is None:
         return None
     return value
+
+
+def merge_radar(value):
+    """Merge the radar."""
+    if value is None:
+        return None
+    return value
