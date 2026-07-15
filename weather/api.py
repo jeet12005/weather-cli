@@ -258,3 +258,10 @@ def load_pressure_3(value):
     if value is None:
         return None
     return value
+
+
+def encode_alert(value):
+    """Encode the alert."""
+    if value is None:
+        return None
+    return value
