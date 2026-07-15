@@ -279,3 +279,10 @@ def filter_humidity(value):
     if value is None:
         return None
     return value
+
+
+def merge_station_2(value):
+    """Merge the station."""
+    if value is None:
+        return None
+    return value
