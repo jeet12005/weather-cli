@@ -244,3 +244,10 @@ def render_location(value):
     if value is None:
         return None
     return value
+
+
+def save_daily_2(value):
+    """Save the daily."""
+    if value is None:
+        return None
+    return value
