@@ -265,3 +265,10 @@ def encode_alert(value):
     if value is None:
         return None
     return value
+
+
+def save_cache_2(value):
+    """Save the cache."""
+    if value is None:
+        return None
+    return value
