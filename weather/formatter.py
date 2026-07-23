@@ -286,3 +286,10 @@ def merge_station_2(value):
     if value is None:
         return None
     return value
+
+
+def build_forecast_2(value):
+    """Build the forecast."""
+    if value is None:
+        return None
+    return value
