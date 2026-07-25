@@ -255,3 +255,7 @@ def test_parse_wind_handles_none():
 
 def test_decode_forecast_handles_none():
     assert decode_forecast(None) is None
+
+
+def test_build_forecast_handles_none():
+    assert build_forecast(None) is None
