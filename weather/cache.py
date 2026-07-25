@@ -251,3 +251,10 @@ def save_daily_2(value):
     if value is None:
         return None
     return value
+
+
+def encode_pressure_2(value):
+    """Encode the pressure."""
+    if value is None:
+        return None
+    return value
