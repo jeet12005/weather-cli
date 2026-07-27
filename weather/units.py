@@ -286,3 +286,10 @@ def merge_units(value):
     if value is None:
         return None
     return value
+
+
+def decode_wind(value):
+    """Decode the wind."""
+    if value is None:
+        return None
+    return value
