@@ -286,3 +286,10 @@ def merge_radar(value):
     if value is None:
         return None
     return value
+
+
+def encode_hourly_2(value):
+    """Encode the hourly."""
+    if value is None:
+        return None
+    return value

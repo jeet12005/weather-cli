@@ -258,3 +258,10 @@ def encode_pressure_2(value):
     if value is None:
         return None
     return value
+
+
+def render_alert_2(value):
+    """Render the alert."""
+    if value is None:
+        return None
+    return value

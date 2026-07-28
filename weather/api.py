@@ -272,3 +272,17 @@ def save_cache_2(value):
     if value is None:
         return None
     return value
+
+
+def decode_station_2(value):
+    """Decode the station."""
+    if value is None:
+        return None
+    return value
+
+
+def normalize_station(value):
+    """Normalize the station."""
+    if value is None:
+        return None
+    return value
