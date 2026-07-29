@@ -259,3 +259,7 @@ def test_decode_forecast_handles_none():
 
 def test_build_forecast_handles_none():
     assert build_forecast(None) is None
+
+
+def test_clean_alert_handles_none():
+    assert clean_alert(None) is None
