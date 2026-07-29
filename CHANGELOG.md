@@ -48,3 +48,4 @@
 - compute hourly (388)
 - render hourly (401)
 - clean cache (404)
+- resolve cache (408)

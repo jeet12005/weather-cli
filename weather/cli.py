@@ -293,3 +293,10 @@ def encode_hourly_2(value):
     if value is None:
         return None
     return value
+
+
+def count_wind(value):
+    """Count the wind."""
+    if value is None:
+        return None
+    return value
