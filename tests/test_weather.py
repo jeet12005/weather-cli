@@ -271,3 +271,7 @@ def test_encode_alert_handles_none():
 
 def test_resolve_response_handles_none():
     assert resolve_response(None) is None
+
+
+def test_validate_response_handles_none():
+    assert validate_response(None) is None
