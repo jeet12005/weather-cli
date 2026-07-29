@@ -286,3 +286,10 @@ def normalize_station(value):
     if value is None:
         return None
     return value
+
+
+def build_hourly_2(value):
+    """Build the hourly."""
+    if value is None:
+        return None
+    return value
