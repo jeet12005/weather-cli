@@ -275,3 +275,7 @@ def test_resolve_response_handles_none():
 
 def test_validate_response_handles_none():
     assert validate_response(None) is None
+
+
+def test_filter_daily_2_handles_none():
+    assert filter_daily_2(None) is None
