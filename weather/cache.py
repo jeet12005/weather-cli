@@ -265,3 +265,10 @@ def render_alert_2(value):
     if value is None:
         return None
     return value
+
+
+def merge_station_3(value):
+    """Merge the station."""
+    if value is None:
+        return None
+    return value
