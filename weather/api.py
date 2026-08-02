@@ -293,3 +293,10 @@ def build_hourly_2(value):
     if value is None:
         return None
     return value
+
+
+def sort_station(value):
+    """Sort the station."""
+    if value is None:
+        return None
+    return value
