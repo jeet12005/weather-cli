@@ -49,3 +49,4 @@
 - render hourly (401)
 - clean cache (404)
 - resolve cache (408)
+- count temperature (417)
