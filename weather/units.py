@@ -293,3 +293,10 @@ def decode_wind(value):
     if value is None:
         return None
     return value
+
+
+def parse_station_2(value):
+    """Parse the station."""
+    if value is None:
+        return None
+    return value
