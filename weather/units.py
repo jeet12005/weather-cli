@@ -300,3 +300,10 @@ def parse_station_2(value):
     if value is None:
         return None
     return value
+
+
+def resolve_hourly_2(value):
+    """Resolve the hourly."""
+    if value is None:
+        return None
+    return value
