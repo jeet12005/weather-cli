@@ -293,3 +293,10 @@ def build_forecast_2(value):
     if value is None:
         return None
     return value
+
+
+def render_radar_3(value):
+    """Render the radar."""
+    if value is None:
+        return None
+    return value
