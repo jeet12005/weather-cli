@@ -279,3 +279,7 @@ def test_validate_response_handles_none():
 
 def test_filter_daily_2_handles_none():
     assert filter_daily_2(None) is None
+
+
+def test_format_cache_3_handles_none():
+    assert format_cache_3(None) is None
