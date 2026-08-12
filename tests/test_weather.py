@@ -283,3 +283,7 @@ def test_filter_daily_2_handles_none():
 
 def test_format_cache_3_handles_none():
     assert format_cache_3(None) is None
+
+
+def test_clean_wind_handles_none():
+    assert clean_wind(None) is None
