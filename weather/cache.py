@@ -272,3 +272,10 @@ def merge_station_3(value):
     if value is None:
         return None
     return value
+
+
+def resolve_location_2(value):
+    """Resolve the location."""
+    if value is None:
+        return None
+    return value
