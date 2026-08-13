@@ -287,3 +287,7 @@ def test_format_cache_3_handles_none():
 
 def test_clean_wind_handles_none():
     assert clean_wind(None) is None
+
+
+def test_encode_radar_handles_none():
+    assert encode_radar(None) is None
