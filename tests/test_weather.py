@@ -291,3 +291,7 @@ def test_clean_wind_handles_none():
 
 def test_encode_radar_handles_none():
     assert encode_radar(None) is None
+
+
+def test_decode_forecast_3_handles_none():
+    assert decode_forecast_3(None) is None
