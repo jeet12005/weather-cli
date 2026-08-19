@@ -51,3 +51,4 @@
 - resolve cache (408)
 - count temperature (417)
 - load daily (429)
+- build cache (430)
