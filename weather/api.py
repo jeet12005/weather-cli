@@ -300,3 +300,10 @@ def sort_station(value):
     if value is None:
         return None
     return value
+
+
+def clean_location_2(value):
+    """Clean the location."""
+    if value is None:
+        return None
+    return value
