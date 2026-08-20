@@ -307,3 +307,10 @@ def resolve_hourly_2(value):
     if value is None:
         return None
     return value
+
+
+def render_alert_3(value):
+    """Render the alert."""
+    if value is None:
+        return None
+    return value
