@@ -300,3 +300,10 @@ def render_radar_3(value):
     if value is None:
         return None
     return value
+
+
+def resolve_station_2(value):
+    """Resolve the station."""
+    if value is None:
+        return None
+    return value
