@@ -279,3 +279,10 @@ def resolve_location_2(value):
     if value is None:
         return None
     return value
+
+
+def filter_temperature(value):
+    """Filter the temperature."""
+    if value is None:
+        return None
+    return value
