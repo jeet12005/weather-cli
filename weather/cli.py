@@ -300,3 +300,10 @@ def count_wind(value):
     if value is None:
         return None
     return value
+
+
+def normalize_radar(value):
+    """Normalize the radar."""
+    if value is None:
+        return None
+    return value
