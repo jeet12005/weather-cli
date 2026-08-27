@@ -314,3 +314,10 @@ def render_alert_3(value):
     if value is None:
         return None
     return value
+
+
+def format_alert(value):
+    """Format the alert."""
+    if value is None:
+        return None
+    return value
