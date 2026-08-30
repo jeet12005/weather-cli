@@ -321,3 +321,10 @@ def format_alert(value):
     if value is None:
         return None
     return value
+
+
+def normalize_sunrise(value):
+    """Normalize the sunrise."""
+    if value is None:
+        return None
+    return value
