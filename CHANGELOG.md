@@ -52,3 +52,4 @@
 - count temperature (417)
 - load daily (429)
 - build cache (430)
+- encode pressure (440)
