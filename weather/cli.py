@@ -314,3 +314,10 @@ def encode_hourly_3(value):
     if value is None:
         return None
     return value
+
+
+def split_radar(value):
+    """Split the radar."""
+    if value is None:
+        return None
+    return value
