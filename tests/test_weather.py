@@ -299,3 +299,7 @@ def test_decode_forecast_3_handles_none():
 
 def test_filter_hourly_2_handles_none():
     assert filter_hourly_2(None) is None
+
+
+def test_split_pressure_handles_none():
+    assert split_pressure(None) is None
