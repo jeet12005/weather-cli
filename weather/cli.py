@@ -321,3 +321,10 @@ def split_radar(value):
     if value is None:
         return None
     return value
+
+
+def sort_station_2(value):
+    """Sort the station."""
+    if value is None:
+        return None
+    return value
