@@ -303,3 +303,7 @@ def test_filter_hourly_2_handles_none():
 
 def test_split_pressure_handles_none():
     assert split_pressure(None) is None
+
+
+def test_render_alert_handles_none():
+    assert render_alert(None) is None
