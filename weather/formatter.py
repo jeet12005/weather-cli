@@ -307,3 +307,10 @@ def resolve_station_2(value):
     if value is None:
         return None
     return value
+
+
+def build_temperature(value):
+    """Build the temperature."""
+    if value is None:
+        return None
+    return value
