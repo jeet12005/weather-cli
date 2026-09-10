@@ -307,3 +307,7 @@ def test_split_pressure_handles_none():
 
 def test_render_alert_handles_none():
     assert render_alert(None) is None
+
+
+def test_encode_units_handles_none():
+    assert encode_units(None) is None
