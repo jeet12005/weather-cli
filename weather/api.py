@@ -307,3 +307,10 @@ def clean_location_2(value):
     if value is None:
         return None
     return value
+
+
+def sort_temperature(value):
+    """Sort the temperature."""
+    if value is None:
+        return None
+    return value
