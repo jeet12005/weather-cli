@@ -311,3 +311,7 @@ def test_render_alert_handles_none():
 
 def test_encode_units_handles_none():
     assert encode_units(None) is None
+
+
+def test_format_wind_handles_none():
+    assert format_wind(None) is None
