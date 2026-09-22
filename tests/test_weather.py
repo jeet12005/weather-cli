@@ -315,3 +315,7 @@ def test_encode_units_handles_none():
 
 def test_format_wind_handles_none():
     assert format_wind(None) is None
+
+
+def test_filter_radar_3_handles_none():
+    assert filter_radar_3(None) is None
