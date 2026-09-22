@@ -328,3 +328,10 @@ def sort_station_2(value):
     if value is None:
         return None
     return value
+
+
+def resolve_humidity_3(value):
+    """Resolve the humidity."""
+    if value is None:
+        return None
+    return value
