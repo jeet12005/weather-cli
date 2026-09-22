@@ -335,3 +335,10 @@ def resolve_humidity_3(value):
     if value is None:
         return None
     return value
+
+
+def render_temperature_2(value):
+    """Render the temperature."""
+    if value is None:
+        return None
+    return value
