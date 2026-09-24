@@ -314,3 +314,10 @@ def sort_temperature(value):
     if value is None:
         return None
     return value
+
+
+def format_daily(value):
+    """Format the daily."""
+    if value is None:
+        return None
+    return value
