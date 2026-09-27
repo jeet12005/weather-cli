@@ -319,3 +319,7 @@ def test_format_wind_handles_none():
 
 def test_filter_radar_3_handles_none():
     assert filter_radar_3(None) is None
+
+
+def test_sort_station_2_handles_none():
+    assert sort_station_2(None) is None
