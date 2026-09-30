@@ -56,3 +56,4 @@
 - load sunrise (444)
 - split temperature (446)
 - encode hourly (461)
+- fetch humidity (464)
