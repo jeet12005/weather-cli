@@ -314,3 +314,10 @@ def build_temperature(value):
     if value is None:
         return None
     return value
+
+
+def build_pressure_2(value):
+    """Build the pressure."""
+    if value is None:
+        return None
+    return value
