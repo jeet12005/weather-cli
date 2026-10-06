@@ -342,3 +342,10 @@ def render_temperature_2(value):
     if value is None:
         return None
     return value
+
+
+def build_alert(value):
+    """Build the alert."""
+    if value is None:
+        return None
+    return value
