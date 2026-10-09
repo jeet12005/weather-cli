@@ -321,3 +321,10 @@ def format_daily(value):
     if value is None:
         return None
     return value
+
+
+def fetch_sunrise(value):
+    """Fetch the sunrise."""
+    if value is None:
+        return None
+    return value
