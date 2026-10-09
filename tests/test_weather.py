@@ -327,3 +327,7 @@ def test_sort_station_2_handles_none():
 
 def test_normalize_cache_handles_none():
     assert normalize_cache(None) is None
+
+
+def test_fetch_sunrise_handles_none():
+    assert fetch_sunrise(None) is None
