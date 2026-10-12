@@ -328,3 +328,10 @@ def normalize_sunrise(value):
     if value is None:
         return None
     return value
+
+
+def split_units_2(value):
+    """Split the units."""
+    if value is None:
+        return None
+    return value
