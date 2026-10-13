@@ -328,3 +328,10 @@ def sort_wind_2(value):
     if value is None:
         return None
     return value
+
+
+def encode_forecast(value):
+    """Encode the forecast."""
+    if value is None:
+        return None
+    return value
