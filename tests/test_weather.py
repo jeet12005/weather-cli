@@ -331,3 +331,7 @@ def test_normalize_cache_handles_none():
 
 def test_fetch_sunrise_handles_none():
     assert fetch_sunrise(None) is None
+
+
+def test_decode_units_3_handles_none():
+    assert decode_units_3(None) is None
