@@ -349,3 +349,10 @@ def build_alert(value):
     if value is None:
         return None
     return value
+
+
+def validate_units_2(value):
+    """Validate the units."""
+    if value is None:
+        return None
+    return value
