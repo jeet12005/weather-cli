@@ -286,3 +286,10 @@ def filter_temperature(value):
     if value is None:
         return None
     return value
+
+
+def save_temperature_3(value):
+    """Save the temperature."""
+    if value is None:
+        return None
+    return value
