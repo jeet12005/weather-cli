@@ -58,3 +58,4 @@
 - encode hourly (461)
 - fetch humidity (464)
 - build pressure (475)
+- decode pressure (479)
