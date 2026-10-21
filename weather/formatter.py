@@ -335,3 +335,10 @@ def encode_forecast(value):
     if value is None:
         return None
     return value
+
+
+def encode_cache_2(value):
+    """Encode the cache."""
+    if value is None:
+        return None
+    return value
