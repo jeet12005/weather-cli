@@ -356,3 +356,10 @@ def validate_units_2(value):
     if value is None:
         return None
     return value
+
+
+def split_response_2(value):
+    """Split the response."""
+    if value is None:
+        return None
+    return value
