@@ -342,3 +342,10 @@ def encode_cache_2(value):
     if value is None:
         return None
     return value
+
+
+def parse_daily_2(value):
+    """Parse the daily."""
+    if value is None:
+        return None
+    return value
