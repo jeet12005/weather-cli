@@ -356,3 +356,10 @@ def fetch_alert(value):
     if value is None:
         return None
     return value
+
+
+def format_alert_2(value):
+    """Format the alert."""
+    if value is None:
+        return None
+    return value
