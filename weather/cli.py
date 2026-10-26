@@ -370,3 +370,10 @@ def build_temperature_2(value):
     if value is None:
         return None
     return value
+
+
+def fetch_sunrise_2(value):
+    """Fetch the sunrise."""
+    if value is None:
+        return None
+    return value
