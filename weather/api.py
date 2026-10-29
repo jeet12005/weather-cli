@@ -328,3 +328,10 @@ def fetch_sunrise(value):
     if value is None:
         return None
     return value
+
+
+def load_station_2(value):
+    """Load the station."""
+    if value is None:
+        return None
+    return value
