@@ -343,3 +343,7 @@ def test_decode_location_handles_none():
 
 def test_load_station_2_handles_none():
     assert load_station_2(None) is None
+
+
+def test_decode_units_3_handles_none():
+    assert decode_units_3(None) is None
