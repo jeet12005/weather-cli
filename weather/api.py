@@ -335,3 +335,10 @@ def load_station_2(value):
     if value is None:
         return None
     return value
+
+
+def build_wind(value):
+    """Build the wind."""
+    if value is None:
+        return None
+    return value

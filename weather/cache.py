@@ -293,3 +293,24 @@ def save_temperature_3(value):
     if value is None:
         return None
     return value
+
+
+def decode_wind_2(value):
+    """Decode the wind."""
+    if value is None:
+        return None
+    return value
+
+
+def decode_station_3(value):
+    """Decode the station."""
+    if value is None:
+        return None
+    return value
+
+
+def filter_alert_2(value):
+    """Filter the alert."""
+    if value is None:
+        return None
+    return value
