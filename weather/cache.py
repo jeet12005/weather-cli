@@ -293,3 +293,10 @@ def save_temperature_3(value):
     if value is None:
         return None
     return value
+
+
+def decode_wind_2(value):
+    """Decode the wind."""
+    if value is None:
+        return None
+    return value
