@@ -363,3 +363,10 @@ def format_alert_2(value):
     if value is None:
         return None
     return value
+
+
+def parse_alert(value):
+    """Parse the alert."""
+    if value is None:
+        return None
+    return value
