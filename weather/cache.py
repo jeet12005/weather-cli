@@ -307,3 +307,10 @@ def decode_station_3(value):
     if value is None:
         return None
     return value
+
+
+def filter_alert_2(value):
+    """Filter the alert."""
+    if value is None:
+        return None
+    return value
