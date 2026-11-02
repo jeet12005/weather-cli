@@ -377,3 +377,10 @@ def fetch_sunrise_2(value):
     if value is None:
         return None
     return value
+
+
+def load_alert(value):
+    """Load the alert."""
+    if value is None:
+        return None
+    return value
