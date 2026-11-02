@@ -300,3 +300,10 @@ def decode_wind_2(value):
     if value is None:
         return None
     return value
+
+
+def decode_station_3(value):
+    """Decode the station."""
+    if value is None:
+        return None
+    return value
