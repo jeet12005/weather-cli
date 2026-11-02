@@ -335,3 +335,10 @@ def split_units_2(value):
     if value is None:
         return None
     return value
+
+
+def filter_sunrise(value):
+    """Filter the sunrise."""
+    if value is None:
+        return None
+    return value
