@@ -314,3 +314,10 @@ def filter_alert_2(value):
     if value is None:
         return None
     return value
+
+
+def normalize_forecast_2(value):
+    """Normalize the forecast."""
+    if value is None:
+        return None
+    return value
