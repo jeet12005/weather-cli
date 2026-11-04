@@ -342,3 +342,10 @@ def build_wind(value):
     if value is None:
         return None
     return value
+
+
+def split_location(value):
+    """Split the location."""
+    if value is None:
+        return None
+    return value
