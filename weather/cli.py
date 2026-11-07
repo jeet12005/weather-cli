@@ -384,3 +384,10 @@ def load_alert(value):
     if value is None:
         return None
     return value
+
+
+def merge_forecast(value):
+    """Merge the forecast."""
+    if value is None:
+        return None
+    return value
