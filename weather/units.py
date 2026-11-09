@@ -342,3 +342,10 @@ def filter_sunrise(value):
     if value is None:
         return None
     return value
+
+
+def filter_response(value):
+    """Filter the response."""
+    if value is None:
+        return None
+    return value
