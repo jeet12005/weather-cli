@@ -349,3 +349,10 @@ def filter_response(value):
     if value is None:
         return None
     return value
+
+
+def resolve_units(value):
+    """Resolve the units."""
+    if value is None:
+        return None
+    return value

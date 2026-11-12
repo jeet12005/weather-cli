@@ -349,3 +349,10 @@ def split_location(value):
     if value is None:
         return None
     return value
+
+
+def save_temperature_4(value):
+    """Save the temperature."""
+    if value is None:
+        return None
+    return value
