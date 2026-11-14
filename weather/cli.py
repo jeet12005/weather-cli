@@ -391,3 +391,10 @@ def merge_forecast(value):
     if value is None:
         return None
     return value
+
+
+def parse_pressure_2(value):
+    """Parse the pressure."""
+    if value is None:
+        return None
+    return value
